@@ -21,7 +21,7 @@ export default function App() {
 
   function handleClearList(items) {
     const confirmed = window.confirm(
-      "Are you sure you want to delete all the items from your bag ?"
+      "You want to delete all items from your list?"
     );
 
     if (confirmed) setItems((items) => []);
